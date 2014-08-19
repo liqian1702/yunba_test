@@ -20,6 +20,7 @@ _cgo_export.*
 _testmain.go
 
 *.exe
+<<<<<<< HEAD
 
 *.msg
 *.lok
@@ -34,3 +35,6 @@ samples/simple
 samples/stdinpub
 samples/stdoutsub
 samples/routing
+=======
+*.test
+>>>>>>> 967d1ad5467b900f7836d206b79b2dadda7bd0e0
