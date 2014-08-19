@@ -26,6 +26,11 @@ func decodeQos(header byte) QoS {
 }
 
 //decodeMsgType returns the type of the message
+func DecodeMsgType(header byte) MsgType {
+	return decodeMsgType(header)
+}
+
+//decodeMsgType returns the type of the message
 func decodeMsgType(header byte) MsgType {
 	mtype := (header & 0xF0) >> 4
 	return MsgType(mtype)
@@ -74,6 +79,10 @@ func decodeTopic(bytes []byte) (tlen uint16, t string) {
 	tlen = binary.BigEndian.Uint16(bytes[:2])
 	t = string(bytes[2 : 2+tlen])
 	return tlen, t
+}
+
+func Decode(bytes []byte, protocolVersion byte) *Message{
+	return decode(bytes, protocolVersion)
 }
 
 //decode takes a slice of bytes as received over the network
@@ -144,6 +153,15 @@ func decode(bytes []byte, protocolVersion byte) *Message {
 			}
 		} else {
 			m.appendPayloadField(bytes[0:])
+		}
+
+	case EXTEND:
+		if protocolVersion == 0x03 {
+			m.setMsgId(MId(binary.BigEndian.Uint16(bytes[:2])))
+			m.appendPayloadField(bytes[2:])
+		}else if protocolVersion == 0x13 {
+			m.setMsgId(MId(binary.BigEndian.Uint64(bytes[:8])))
+			m.appendPayloadField(bytes[8:])
 		}
 	}
 
