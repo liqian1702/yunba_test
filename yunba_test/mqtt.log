@@ -1,0 +1,946 @@
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      outgoing waiting for an outbound message
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   disconnecting
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      outgoing waiting for an outbound message
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[client]   enter StartSubscription
+[client]   exit StartSubscription
+[client]   disconnecting
+[net]      obound got msg to write, type: 8
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      3 more incoming bytes to read
+[net]      data: [0 1 0]
+[net]      incoming received inbound message, type 9
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 9
+[store]    memorystore del: message 1 was deleted
+[net]      received suback, id: 1
+[net]      logic waiting for msg on ibound
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      outgoing waiting for an outbound message
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   enter StartSubscription
+[client]   exit StartSubscription
+[client]   disconnecting
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 8
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      5 more incoming bytes to read
+[net]      data: [0 1 0 0 0]
+[net]      incoming received inbound message, type 9
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 9
+[store]    memorystore del: message 1 was deleted
+[net]      received suback, id: 1
+[net]      logic waiting for msg on ibound
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      outgoing waiting for an outbound message
+[pinger]   keepalive stopped
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   enter StartSubscription
+[client]   exit StartSubscription
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 8
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[client]   Start()
+[net]      3 more incoming bytes to read
+[net]      data: [0 1 0]
+[net]      incoming received inbound message, type 9
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 9
+[store]    memorystore del: message 1 was deleted
+[net]      received suback, id: 1
+[net]      logic waiting for msg on ibound
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      outgoing waiting for an outbound message
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   sending publish message, topic: 960bf52b-e164-49c3-9670-c132ac912b9e
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 1]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      52 more incoming bytes to read
+[net]      data: [0 36 57 54 48 98 102 53 50 98 45 101 49 54 52 45 52 57 99 51 45 57 54 55 48 45 99 49 51 50 97 99 57 49 50 98 57 101 0 1 116 101 115 116 32 109 101 115 115 97 103 101]
+[net]      incoming received inbound message, type 3
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 1 was deleted
+[net]      received puback, id: 1
+[net]      logic waiting for msg on ibound
+[net]      logic got msg on ibound, type 3
+[store]    protocolVersion 3
+[net]      received publish, msgId: 1
+[net]      putting msg on onPubChan
+[net]      done putting msg on incomingPubChan
+[net]      putting puback msg on obound
+[net]      done putting puback msg on obound
+[net]      logic waiting for msg on ibound
+[client]   sending publish message, topic: 960bf52b-e164-49c3-9670-c132ac912b9e
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 4
+[store]    memorystore del: message 1 was deleted
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 13
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 13]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      52 more incoming bytes to read
+[net]      data: [0 36 57 54 48 98 102 53 50 98 45 101 49 54 52 45 52 57 99 51 45 57 54 55 48 45 99 49 51 50 97 99 57 49 50 98 57 101 0 13 116 101 115 116 32 109 101 115 115 97 103 101]
+[net]      incoming received inbound message, type 3
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 13 was deleted
+[net]      received puback, id: 13
+[net]      logic waiting for msg on ibound
+[net]      logic got msg on ibound, type 3
+[store]    protocolVersion 3
+[net]      received publish, msgId: 13
+[net]      putting msg on onPubChan
+[net]      done putting msg on incomingPubChan
+[net]      putting puback msg on obound
+[net]      done putting puback msg on obound
+[net]      logic waiting for msg on ibound
+[client]   sending publish message, topic: 960bf52b-e164-49c3-9670-c132ac912b9e
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 4
+[store]    memorystore del: message 13 was deleted
+[net]      obound wrote msg, id: 13
+[net]      outgoing waiting for an outbound message
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 14
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 14]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      52 more incoming bytes to read
+[net]      data: [0 36 57 54 48 98 102 53 50 98 45 101 49 54 52 45 52 57 99 51 45 57 54 55 48 45 99 49 51 50 97 99 57 49 50 98 57 101 0 14 116 101 115 116 32 109 101 115 115 97 103 101]
+[net]      incoming received inbound message, type 3
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 14 was deleted
+[net]      received puback, id: 14
+[net]      logic waiting for msg on ibound
+[net]      logic got msg on ibound, type 3
+[store]    protocolVersion 3
+[net]      received publish, msgId: 14
+[net]      putting msg on onPubChan
+[net]      done putting msg on incomingPubChan
+[net]      putting puback msg on obound
+[net]      done putting puback msg on obound
+[net]      logic waiting for msg on ibound
+[net]      incoming waiting for network data
+[client]   disconnecting
+[net]      obound got msg to write, type: 4
+[store]    memorystore del: message 14 was deleted
+[net]      obound wrote msg, id: 14
+[net]      outgoing waiting for an outbound message
+[pinger]   keepalive stopped
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[client]   already disconnected
+[client]   already disconnected
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      outgoing waiting for an outbound message
+[pinger]   keepalive stopped
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   enter EndSubscription
+[client]   exit EndSubscription
+[client]   Start()
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 10
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      outgoing waiting for an outbound message
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      2 more incoming bytes to read
+[net]      data: [0 1]
+[net]      incoming received inbound message, type 11
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 11
+[store]    memorystore del: message 1 was deleted
+[net]      received unsuback, id: 1
+[net]      logic waiting for msg on ibound
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   sending publish message, topic: 960bf52b-e164-49c3-9670-c132ac912b9e
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 1]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 1 was deleted
+[net]      received puback, id: 1
+[net]      logic waiting for msg on ibound
+[net]      52 more incoming bytes to read
+[net]      data: [0 36 57 54 48 98 102 53 50 98 45 101 49 54 52 45 52 57 99 51 45 57 54 55 48 45 99 49 51 50 97 99 57 49 50 98 57 101 0 1 116 101 115 116 32 109 101 115 115 97 103 101]
+[net]      incoming received inbound message, type 3
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 3
+[store]    protocolVersion 3
+[net]      received publish, msgId: 1
+[net]      putting msg on onPubChan
+[net]      done putting msg on incomingPubChan
+[net]      putting puback msg on obound
+[net]      done putting puback msg on obound
+[net]      logic waiting for msg on ibound
+[client]   disconnecting
+[net]      obound got msg to write, type: 4
+[store]    memorystore del: message 1 was deleted
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[pinger]   keepalive stopped
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[client]   disconnecting
+[net]      incoming stopped
+[pinger]   keepalive stopped
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[client]   already disconnected
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      outgoing waiting for an outbound message
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   sending publish message, topic: 17c201a2-3f0a-4eb5-8928-749a393bf4c4
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 1]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 1 was deleted
+[net]      received puback, id: 1
+[net]      logic waiting for msg on ibound
+[client]   disconnecting
+[pinger]   keepalive stopped
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[pinger]   keepalive stopped
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      outgoing waiting for an outbound message
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   enter StartSubscription
+[client]   exit StartSubscription
+[client]   sending publish message, topic: 9a980a69-b6e2-4cb1-a93a-75430a273dd5
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 8
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 2
+[net]      outgoing waiting for an outbound message
+[net]      3 more incoming bytes to read
+[net]      data: [0 1 0]
+[net]      incoming received inbound message, type 9
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 9
+[store]    memorystore del: message 1 was deleted
+[net]      received suback, id: 1
+[net]      logic waiting for msg on ibound
+[net]      2 more incoming bytes to read
+[net]      data: [0 2]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      45 more incoming bytes to read
+[net]      data: [0 36 57 97 57 56 48 97 54 57 45 98 54 101 50 45 52 99 98 49 45 97 57 51 97 45 55 53 52 51 48 97 50 55 51 100 100 53 0 2 104 101 108 108 111]
+[net]      incoming received inbound message, type 3
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 2 was deleted
+[net]      received puback, id: 2
+[net]      logic waiting for msg on ibound
+[net]      logic got msg on ibound, type 3
+[store]    protocolVersion 3
+[net]      received publish, msgId: 2
+[net]      putting msg on onPubChan
+[net]      done putting msg on incomingPubChan
+[net]      putting puback msg on obound
+[net]      done putting puback msg on obound
+[net]      logic waiting for msg on ibound
+[net]      incoming waiting for network data
+[client]   enter EndSubscription
+[net]      obound got msg to write, type: 4
+[store]    memorystore del: message 2 was deleted
+[net]      obound wrote msg, id: 2
+[net]      outgoing waiting for an outbound message
+[net]      obound got msg to write, type: 10
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 3
+[net]      outgoing waiting for an outbound message
+[client]   exit EndSubscription
+[client]   sending publish message, topic: 9a980a69-b6e2-4cb1-a93a-75430a273dd5
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 4
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 4]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 4 was deleted
+[net]      received puback, id: 4
+[net]      logic waiting for msg on ibound
+[client]   disconnecting
+[net]      2 more incoming bytes to read
+[net]      data: [0 3]
+[net]      incoming received inbound message, type 11
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 11
+[store]    memorystore del: message 3 was deleted
+[net]      received unsuback, id: 3
+[net]      logic waiting for msg on ibound
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      outgoing waiting for an outbound message
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   enter StartSubscription
+[client]   exit StartSubscription
+[client]   sending publish message, topic: ae3eb05c-2c95-442b-9899-905eda52ab36
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 8
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 2
+[net]      outgoing waiting for an outbound message
+[net]      3 more incoming bytes to read
+[net]      data: [0 1 0]
+[net]      incoming received inbound message, type 9
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 9
+[store]    memorystore del: message 1 was deleted
+[net]      received suback, id: 1
+[net]      logic waiting for msg on ibound
+[net]      2 more incoming bytes to read
+[net]      data: [0 2]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 2 was deleted
+[net]      received puback, id: 2
+[net]      logic waiting for msg on ibound
+[net]      25832 more incoming bytes to read
+[pinger]   keepalive stopped
+[net]      data: [0 36 97 101 51 101 98 48 53 99 45 50 99 57 53 45 52 52 50 98 45 57 56 57 57 45 57 48 53 101 100 97 53 50 97 98 51 54 0 2 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 10 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 10 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 10 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 32 228 184 128 228 186 140 228 184 137 229 155 155 228 186 148 229 133 173 228 184 131 229 133 171 228 185 157 229 141 129 10]
+[net]      incoming received inbound message, type 3
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 3
+[store]    protocolVersion 3
+[net]      received publish, msgId: 2
+[net]      putting msg on onPubChan
+[net]      done putting msg on incomingPubChan
+[net]      putting puback msg on obound
+[net]      done putting puback msg on obound
+[net]      logic waiting for msg on ibound
+[net]      obound got msg to write, type: 4
+[store]    memorystore del: message 2 was deleted
+[net]      obound wrote msg, id: 2
+[net]      outgoing waiting for an outbound message
+[client]   disconnecting
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   Start()
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      outgoing waiting for an outbound message
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   enter EndSubscription
+[client]   exit EndSubscription
+[client]   Start()
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 10
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[pinger]   keepalive stopped
+[client]   connected to broker
+[store]    memorystore initialized
+[client]   about to start generateMsgIds
+[client]   about to write new connect msg
+[net]      outgoing started
+[net]      outgoing waiting for an outbound message
+[net]      obound priority msg to write, type 1
+[net]      outgoing waiting for an outbound message
+[net]      logic started
+[net]      logic waiting for msg on ibound
+[net]      connect started
+[net]      2 more incoming bytes to read
+[net]      data: [0 1]
+[net]      incoming received inbound message, type 11
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 11
+[store]    memorystore del: message 1 was deleted
+[net]      received unsuback, id: 1
+[net]      logic waiting for msg on ibound
+[net]      received connack
+[client]   client is connected
+[store]    memorystore wiped
+[client]   exit startMqttClient
+[client]   sending publish message, topic: 960bf52b-e164-49c3-9670-c132ac912b9e
+[pinger]   keepalive starting
+[net]      incoming started
+[net]      incoming waiting for network data
+[net]      obound got msg to write, type: 3
+[store]    protocolVersion 3
+[net]      obound wrote msg, id: 1
+[net]      outgoing waiting for an outbound message
+[net]      2 more incoming bytes to read
+[net]      data: [0 1]
+[net]      incoming received inbound message, type 4
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 4
+[store]    memorystore del: message 1 was deleted
+[net]      received puback, id: 1
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive stopped
+[client]   disconnecting
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[client]   disconnecting
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+[net]      incoming stopped
+[client]   quiesce expired, forcing disconnect
+[client]   disconnected
+[store]    memorystore closed
+[net]      logic stopped
+[net]      obound priority msg to write, type 14
+[net]      outbound wrote disconnect, now closing connection
+sing connection
+waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound
+[pinger]   keepalive sending ping
+[net]      obound priority msg to write, type 12
+[net]      outgoing waiting for an outbound message
+[net]      incoming received inbound message, type 13
+[net]      incoming waiting for network data
+[net]      logic got msg on ibound, type 13
+[net]      received pingresp
+[net]      logic waiting for msg on ibound

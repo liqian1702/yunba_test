@@ -1,0 +1,9 @@
+{
+    "app_key": "52fcc04c4dc903d66d6f8f92",
+    "reg_host": "reg.yunba.io",
+    "reg_port": 8383,
+
+    "ticket_host": "tick.yunba.io",
+    "ticket_port": 9999,
+    "hosts_communication":"[\"119.9.78.46\",\"119.9.78.88\",\"119.9.77.71\"]"
+}
