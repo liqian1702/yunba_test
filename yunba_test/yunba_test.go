@@ -428,14 +428,14 @@ func Test_MultiPublish(t *testing.T) {
 
         fmt.Println("Connecting to ", broker.url)
         client2 := MQTT.NewClient(opts2)
-        _, err := client.Start()
+        _, err := client2.Start()
         if err != nil {
             t.Fatalf("fail to connect: %s\n", err)
         }
 
         for i:=0; i<count_expected; i++ {
-            r := client.Publish(MQTT.QoS(byte(1)), topic, []byte(message1))
-            fmt.Println("puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
+            r := client2.Publish(MQTT.QoS(byte(1)), topic, []byte(message1))
+            fmt.Println(topic, " puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
             //fmt.Println("Message Sent!")
         }
 
