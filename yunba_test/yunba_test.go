@@ -250,6 +250,7 @@ func Test_Connect(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -272,6 +273,7 @@ func Test_Subscribe(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -310,6 +312,7 @@ func Test_MultiSubscribe(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -359,6 +362,7 @@ func Test_MultiPublish(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -424,6 +428,7 @@ func Test_MultiPublish(t *testing.T) {
         opts2.SetClientId(clientid2)
         opts2.SetUsername(username2)
         opts2.SetPassword(password2)
+        opts2.SetProtocolVersion(0x13)
 
         fmt.Println("Connecting to ", broker.url)
         client2 := MQTT.NewClient(opts2)
@@ -455,6 +460,7 @@ func Test_Unsubscribe(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     // set default handler
     choke := make(chan bool)
@@ -491,6 +497,7 @@ func Test_Unsubscribe(t *testing.T) {
     opts2.SetClientId(clientid2)
     opts2.SetUsername(username2)
     opts2.SetPassword(password2)
+    opts2.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client2 := MQTT.NewClient(opts2)
@@ -516,6 +523,7 @@ func Test_PublishNew(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -542,6 +550,7 @@ func Test_PublishUnsubed(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -598,6 +607,7 @@ func Test_PublishLarge(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client := MQTT.NewClient(opts)
@@ -656,6 +666,7 @@ func Test_UnsubscribeTopic(t *testing.T) {
     opts.SetClientId(clientid)
     opts.SetUsername(username)
     opts.SetPassword(password)
+    opts.SetProtocolVersion(0x13)
 
     // set default handler
     message1 := "test message";
@@ -688,6 +699,7 @@ func Test_UnsubscribeTopic(t *testing.T) {
     opts2.SetClientId(clientid2)
     opts2.SetUsername(username2)
     opts2.SetPassword(password2)
+    opts2.SetProtocolVersion(0x13)
 
     fmt.Println("Connecting to ", broker.url)
     client2 := MQTT.NewClient(opts2)
