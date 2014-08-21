@@ -147,15 +147,14 @@ func wait(c chan bool) {
 
 //////////////////////////////////////////////////////////////////////////////
 // mqtt client test func
-func Test_LoadConfig(t *testing.T) {
+
+// 'should get tickect'
+func Test_GetTicket(t *testing.T) {
     ret := loadConfig()
     if !ret {
         t.Fatalf("fail to load config json")
     }
-}
 
-// 'should get tickect'
-func Test_GetTicket(t *testing.T) {
     if !checkTicket() {
         t.Fatalf("fail to ready")
     }
@@ -641,6 +640,10 @@ func Test_PublishLarge(t *testing.T) {
     wait(choke)
 }
 
+// func except() {
+//     recover()
+// }
+
 // 'should unsubscribe the topic, and DO NOT receive message: 
 func Test_UnsubscribeTopic(t *testing.T) {
     if !checkBroker() {
@@ -692,6 +695,9 @@ func Test_UnsubscribeTopic(t *testing.T) {
     if err != nil {
         t.Fatalf("fail to connect: %s\n", err)
     }
+
+    // defer except()
+    // panic("test panic")
 
     r := client2.Publish(MQTT.QoS(byte(1)), topic, []byte(message1))
     fmt.Println("puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
