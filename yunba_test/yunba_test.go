@@ -693,7 +693,7 @@ func Test_UnsubscribeTopic(t *testing.T) {
     opts.SetDefaultPublishHandler(func(client *MQTT.MqttClient, msg MQTT.Message) {
         //check 
         fmt.Printf("Received message on topic: %s\n", msg.Topic())
-        fmt.Printf("Received message: %s\n", msg.Payload())
+        //fmt.Printf("Received message: %s\n", msg.Payload())
         if msg.Topic() == topic {
             t.Fatalf("I should not receive message anymore, after unsubscribe topic = %s receiver msg from %s", topic, msg.Topic())
         }
