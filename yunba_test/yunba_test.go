@@ -1,4 +1,4 @@
-package sample
+package yunba_test
 
 import (
     "net/http"
@@ -51,7 +51,7 @@ type Message struct {
 
 //////////////////////////////////////////////////////////////////////////////
 // global vars define
-var filename = "./config.json"
+var config_filename = "./config.json"
 var bigcontent_filename = "./bigcontent"
 var PLATFORM_JAVASCRIPT = 2
 
@@ -87,7 +87,7 @@ func checkBroker() bool {
 }
 
 func loadConfig() bool {
-    bytes, err := ioutil.ReadFile(filename)
+    bytes, err := ioutil.ReadFile(config_filename)
     if err != nil {
         fmt.Println("ReadFile: ", err.Error())
         return false
@@ -140,9 +140,15 @@ func reg(appkey string) ([]byte, error) {
     return body, nil
 }
 
-func wait(c chan bool) {
+func wait(c chan bool) bool {
     fmt.Println("choke is waiting")
-    <-c
+    select {
+    case  <-c:
+        return true;
+    case <-time.After(time.Second * 10):
+        fmt.Println("wait 10s timeout")
+        return false
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////
@@ -437,14 +443,17 @@ func Test_MultiPublish(t *testing.T) {
             t.Fatalf("fail to connect: %s\n", err)
         }
 
+        defer client2.Disconnect(250)
+
         for i:=0; i<count_expected; i++ {
             r := client2.Publish(MQTT.QoS(byte(1)), topic, []byte(message1))
             fmt.Println(topic, " puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
             //fmt.Println("Message Sent!")
         }
 
-        wait(choke)
-        client2.Disconnect(250)
+        if !wait(choke) {
+            t.Fatalf("fail to receive published message for topic: %s\n", topic)
+        }
     }
 }
 
@@ -506,10 +515,12 @@ func Test_Unsubscribe(t *testing.T) {
         t.Fatalf("fail to connect: %s\n", err)
     }
 
+    defer client2.Disconnect(250)
     r := client2.Publish(MQTT.QoS(byte(1)), topic, []byte(message1))
     fmt.Println("puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
-    wait(choke)
-    client2.Disconnect(250)
+    if !wait(choke) {
+        t.Fatalf("fail to receive published message for topic: %s\n", topic)
+    }
 }
 
 // 'should get a puback when publish to a new topic'
@@ -563,7 +574,7 @@ func Test_PublishUnsubed(t *testing.T) {
     random_topic := UUID.New()
     test_message := "hello";
     fmt.Println("random topic:", random_topic)
-    filter, e := MQTT.NewTopicFilter(random_topic, byte(0))
+    filter, e := MQTT.NewTopicFilter(random_topic, byte(1))
     if e != nil {
         t.Fatalf("fail to fileter: %s\n", err)
     }
@@ -592,8 +603,11 @@ func Test_PublishUnsubed(t *testing.T) {
     }
 
     r := client.Publish(MQTT.QoS(byte(1)), random_topic, []byte(test_message))
-    fmt.Println("puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
-    wait(choke)
+    fmt.Println("puback: ", <-r) // received puback will send message to chan r,   net.go: case PUBACK
+
+    if !wait(choke) {
+        t.Fatalf("fail to receive published message for topic: %s\n", random_topic)
+    }
 }
 
 // 'should get a message when publish large content'
@@ -647,7 +661,10 @@ func Test_PublishLarge(t *testing.T) {
 
     r := client.Publish(MQTT.QoS(byte(1)), random_topic, bigcontent)
     fmt.Println("puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
-    wait(choke)
+
+    if !wait(choke) {
+        t.Fatalf("fail to receive published message for topic: %s\n", random_topic)
+    }
 }
 
 // func except() {
