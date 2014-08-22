@@ -145,8 +145,8 @@ func wait(c chan bool) bool {
     select {
     case  <-c:
         return true;
-    case <-time.After(time.Second * 10):
-        fmt.Println("wait 10s timeout")
+    case <-time.After(time.Second * 20):
+        fmt.Println("wait 20s timeout")
         return false
     }
 }
@@ -597,10 +597,13 @@ func Test_PublishUnsubed(t *testing.T) {
         }
     }
 
-    _, err = client.StartSubscription(onMessageReceived, filter)
+    rs, err := client.StartSubscription(onMessageReceived, filter)
+    fmt.Println("suback:", <-rs) // wait subscription ack
     if err != nil {
         t.Fatalf("fail to StartSubscription: %s\n", err)
     }
+
+    // time.Sleep(1 * time.Second)
 
     r := client.Publish(MQTT.QoS(byte(1)), random_topic, []byte(test_message))
     fmt.Println("puback: ", <-r) // received puback will send message to chan r,   net.go: case PUBACK
@@ -654,7 +657,8 @@ func Test_PublishLarge(t *testing.T) {
         }
     }
 
-    _, err = client.StartSubscription(onMessageReceived, filter)
+    rs, err := client.StartSubscription(onMessageReceived, filter)
+    fmt.Println("suback:", <-rs) // wait subscription ack
     if err != nil {
         t.Fatalf("fail to StartSubscription: %s\n", err)
     }
@@ -663,13 +667,12 @@ func Test_PublishLarge(t *testing.T) {
     fmt.Println("puback:", <-r) // received puback will send message to chan r,   net.go: case PUBACK
 
     if !wait(choke) {
+        rs, err = client.EndSubscription(random_topic)
+        fmt.Println("unsuback:", <-rs) // wait subscription ack
+
         t.Fatalf("fail to receive published message for topic: %s\n", random_topic)
     }
 }
-
-// func except() {
-//     recover()
-// }
 
 // 'should unsubscribe the topic, and DO NOT receive message: 
 func Test_UnsubscribeTopic(t *testing.T) {
@@ -705,7 +708,8 @@ func Test_UnsubscribeTopic(t *testing.T) {
 
     defer client.Disconnect(250)
 
-    _, err = client.EndSubscription(topic)
+    rs, err := client.EndSubscription(topic)
+    fmt.Println("unsuback:", <-rs) // wait subscription ack
     if err != nil {
         t.Fatalf("fail to EndSubscription: %s\n", err)
     }
